@@ -1,0 +1,60 @@
+# ====================================
+# TOXINT v3.0.0 Requirements
+# ====================================
+
+# Core Dependencies
+click==8.1.7
+colorama==0.4.6
+rich==13.7.1
+requests==2.31.0
+aiohttp==3.9.5
+asyncio==3.4.3
+python-dotenv==1.0.0
+
+# OSINT Core Libraries
+dnspython==2.4.2
+python-whois==0.8.0
+ipwhois==1.2.0
+beautifulsoup4==4.12.2
+httpx==0.25.2
+lxml==4.9.3
+
+# File Processing & Metadata
+exifread==3.0.0
+Pillow==10.0.1
+PyPDF2==3.0.1
+python-docx==0.8.11
+
+# Network & Security Analysis
+shodan==1.31.0
+geopy==2.4.1
+geoip2==4.7.0
+phonenumbers==8.13.19
+
+# Web Scraping & Automation
+scrapy==2.11.0
+selenium==4.15.2
+
+# Data Analysis & Visualization
+networkx==3.2.1
+matplotlib==3.8.2
+
+# UI & Progress
+pyfiglet==1.0.2
+alive-progress==3.1.5
+
+# Threading & Concurrency (Note: concurrent-futures is built-in Python 3.2+)
+# concurrent-futures==3.1.1  # Removed - built into Python 3.2+
+
+# ====================================
+# Optional Dependencies for Enhanced Features
+# ====================================
+
+# Uncomment these for additional functionality:
+# webdriver-manager==4.0.1     # Auto-manage browser drivers for Selenium
+# scapy==2.5.0                 # Network packet analysis
+# cryptography==41.0.7         # Advanced cryptographic functions
+# paramiko==3.3.1              # SSH client for network analysis
+# psutil==5.9.6                # System and process utilities
+# numpy==1.24.4                # Numerical computing (if needed for analysis)
+# pandas==2.1.4                # Data manipulation (if needed for reports)
